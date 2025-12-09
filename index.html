@@ -4,8 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <link rel="stylesheet" href="styles/desktop.css" media="screen and (min-width: 768px)"> 
-    <link rel="stylesheet" href="styles/mobile.css" media="screen and (max-width: 767px)"> 
+    <link rel="stylesheet" href="./styles/desktop.css" media="screen and (min-width: 768px)"> 
+    <link rel="stylesheet" href="./styles/mobile.css" media="screen and (max-width: 767px)"> 
     <title>the_persistent_lagoons</title>
 </head>
 <body>
@@ -21,42 +21,6 @@
 
         <section id="Carousel">
             <h2>Nos produits de saison</h2>
-            
-<style>
-.carousel {
-  display: flex;
-  width: 300px;
-  overflow: hidden;
-}
-
-.slides {
-  display: flex;
-  width: calc(300px * 4); /* 4 slides */
-  animation: slide 12s infinite;
-}
-
-.slide {
-  flex: 0 0 300px;
-  scroll-snap-align: start;
-  text-align: center;
-  font-size: 24px;
-  color: white;
-  line-height: 200px;
-}
-
-/* Animation */
-@keyframes slide {
-  0%   { transform: translateX(0); }
-  20%  { transform: translateX(0); }
-  25%  { transform: translateX(-300px); }
-  45%  { transform: translateX(-300px); }
-  50%  { transform: translateX(-600px); }
-  70%  { transform: translateX(-600px); }
-  75%  { transform: translateX(-900px); }
-  95%  { transform: translateX(-900px); }
-  100% { transform: translateX(0); }
-}
-</style>
 
 <div class="carousel">
   <div class="slides">
