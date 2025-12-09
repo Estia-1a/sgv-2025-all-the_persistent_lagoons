@@ -31,3 +31,7 @@
   95%  { transform: translateX(-900px); }
   100% { transform: translateX(0); }
 }
+.img_deg {
+        float: left;
+        width: 80%;
+    }
