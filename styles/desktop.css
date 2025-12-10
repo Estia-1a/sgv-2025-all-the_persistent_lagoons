@@ -30,6 +30,23 @@
   75%, 95%  { transform: translateX(-300%); }
   100%      { transform: translateX(0); }
 }
+.image-row {
+  display: flex;                  /* Aligne les images sur une même ligne */
+  gap: 8px;                      /* Espacement entre les images */
+  justify-content: center;        /* Centrer horizontalement (optionnel) */
+  align-items: center;            /* Aligner verticalement si différentes hauteurs */
+  flex-wrap: wrap;                /* Permet de passer à la ligne sur petits écrans */
+  margin: 8px auto;
+}
+.image-row img {
+  width: 80%;
+  max-width: 300px;               /* Taille max par image */
+  height: 100%;                  /* Hauteur fixe pour une grille uniforme */
+  object-fit: cover;              /* Coupe proprement si proportions différentes */
+  border-radius: 8px;             /* Coins arrondis (optionnel) */
+  display: block;
+}
+
 .img_deg {
         float: left;
         width: 80%;
