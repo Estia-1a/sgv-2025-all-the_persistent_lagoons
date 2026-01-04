@@ -1,3 +1,48 @@
+header {
+    border: 4px solid #228B22;   /* Vert foncé */
+    border-radius: 12px;         /* Coins arrondis optionnels */
+    padding: 16px;
+    margin: 24px auto;
+    width: 90%;
+    background: #f6fff6;         /* Vert très clair, optionnel */
+    box-sizing: border-box;
+}
+.intro-section {
+    border: 4px solid #228B22;
+    border-radius: 12px;
+    padding: 16px;
+    margin: 24px auto 0 auto;
+    width: 90%;
+    background: #f6fff6;
+    box-sizing: border-box;
+}
+
+.main-nav {
+    width: 90%;
+    margin: 0 auto 24px auto;
+    background: #e6ffe6;
+    border-radius: 8px;
+    border: 2px solid #228B22;
+    box-sizing: border-box;
+}
+.main-nav ul {
+    display: flex;
+    justify-content: center;
+    gap: 32px;
+    list-style: none;
+    margin: 0;
+    padding: 12px 0;
+}
+.main-nav a {
+    text-decoration: none;
+    color: #228B22;
+    font-weight: bold;
+    font-size: 1.1em;
+    transition: color 0.2s;
+}
+.main-nav a:hover {
+    color: #145214;
+}
 .carousel {
   display: flex;
   width: 80%; /* 80% of the screen width */
