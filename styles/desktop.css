@@ -4,13 +4,11 @@
   min-width: 768px; /* desktop limit */
   margin: 0 auto; /* center the carousel */
   overflow: hidden;
-  max-height: 60vh;
-  height: auto;
 }
  
 .slides {
   display: flex;
-  width: 400%; /* 4 slides → 100% * 4 */
+  width: 300%; /* 4 slides → 100% * 4 */
   animation: slide 10s infinite;
 }
  
@@ -46,6 +44,7 @@
   border-radius: 8px;             /* Coins arrondis (optionnel) */
   display: block;
 }
+
 
 .img_deg {
         float: left;
